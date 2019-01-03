@@ -8,7 +8,7 @@ const getPostsList = async () => {
 
   try {
     const response = await fetch('https://5bb634f6695f8d001496c082.mockapi.io/api/posts', options)
-    return await response.json
+    return await response.json()
   } catch (err) {
     console.error('Error getting documents', err)
   }
