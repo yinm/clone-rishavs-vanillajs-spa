@@ -4,6 +4,7 @@ import About from './views/pages/About.js'
 import Error404 from './views/pages/Error404.js'
 import Home from './views/pages/Home.js'
 import PostShow from './views/pages/PostShow.js'
+import Register from './views/pages/Register.js'
 
 import Navbar from './views/components/Navbar.js'
 import Bottombar from './views/components/Bottombar.js'
@@ -15,6 +16,7 @@ const routes = {
   '/': Home,
   '/about': About,
   '/p/:id': PostShow,
+  '/register': Register
 }
 
 const router = async () => {
