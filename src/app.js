@@ -1,8 +1,9 @@
 'use strict'
 
 import About from './views/pages/About.js'
-import Home from './views/pages/Home.js'
 import Error404 from './views/pages/Error404.js'
+import Home from './views/pages/Home.js'
+import PostShow from './views/pages/PostShow.js'
 
 import Navbar from './views/components/Navbar.js'
 import Bottombar from './views/components/Bottombar.js'
@@ -13,6 +14,7 @@ import Utils from './services/Utils.js'
 const routes = {
   '/': Home,
   '/about': About,
+  '/p/:id': PostShow,
 }
 
 const router = async () => {
