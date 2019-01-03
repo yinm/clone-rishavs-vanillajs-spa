@@ -1,6 +1,7 @@
 'use strict'
 
 import Home from './views/pages/Home.js'
+import Error404 from './views/pages/Error404.js'
 
 import Navbar from './views/components/Navbar.js'
 import Bottombar from './views/components/Bottombar.js'
