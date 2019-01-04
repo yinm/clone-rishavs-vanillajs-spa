@@ -1,8 +1,16 @@
 {
   "scripts": {
-    "server": "live-server src --verbose"
+    "server": "live-server src --verbose",
+    "test": "jest"
   },
   "dependencies": {
     "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.13.1"
   }
 }
